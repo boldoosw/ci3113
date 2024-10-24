@@ -52,3 +52,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $route['default_controller'] = 'Home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['apanel/serviceitem/(:num)'] = 'apanel/serviceitem/index/$1';
+$route['apanel/serviceprice/(:num)'] = 'apanel/serviceprice/index/$1';
+
+// $route['profile/(:num)'] = 'profile/index/$1';
